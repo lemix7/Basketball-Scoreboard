@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    color: white;
+    background-color: #9DA2AF;
+    
+}
+
+.container {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B244A;
+    padding: 10px 0 30px 0 ;
+    gap: 70px;
+    max-width: 900px;
+    border-radius: 20px;
+}
+
+h3{
+    font-size: 60px;
+}
+
+.homeC {
+    /* border: 2px solid white; */
+    display: grid;
+    place-items: center;
+}
+.guestC {
+    /* border: 2px solid white; */
+     display: grid;
+    place-items: center;
+}
+
+.hscore{
+    background-color: #090001;
+    color: #F94F6D;
+    width: 80%;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+.gscore{
+    background-color: #090001;
+    color: #F94F6D;
+    width: 80%;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+
+.hscore h1{
+    font-size: 70px;
+}
+.gscore h1{
+    font-size: 70px;
+}
+
+.buttons{
+    /* border: 1px solid white; */
+    margin-top: 20px;
+    
+}
+
+.buttons button{
+    background: none;
+    border: 1px solid #9BAAD9;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 30px;
+    color: #9BAAD9;
+    margin-right: 5px;
+}
+
+.new{
+    margin-top: 20px;
+}
+
+.new button{
+    width: 100%;
+}
